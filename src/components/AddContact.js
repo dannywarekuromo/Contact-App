@@ -32,12 +32,7 @@ class AddContact extends React.Component {
                     </div>
                     <div className='field'>
                         <label>Email</label>
-                        <input 
-                        type="text" 
-                        name="email" 
-                        placeholder="Email" 
-                        value={this.state.email}
-                        onChange={(e) => this.setState({email: e.target.value})}
+                        <input type="text" name="email" placeholder="Email" value={this.state.email} onChange={(e) => this.setState({email: e.target.value})}
                         /> 
                     </div>
                     <button className='ui button blue'>Add</button>
