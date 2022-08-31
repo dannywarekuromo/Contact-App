@@ -22,12 +22,7 @@ class AddContact extends React.Component {
                 <form className="ui form" onSubmit={this.add}>
                     <div className='field'>
                         <label>Name</label>
-                        <input 
-                        type="text" 
-                        name="name" 
-                        placeholder="Name" 
-                        value={this.state.name}
-                        onChange={(e) => this.setState({name: e.target.value})}
+                        <input type="text" name="name" placeholder="Name" value={this.state.name} onChange={(e) => this.setState({name: e.target.value})}
                         />
                     </div>
                     <div className='field'>
